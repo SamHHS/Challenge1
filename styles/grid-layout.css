@@ -33,8 +33,9 @@
 }
 
 
+
 /* tablet */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width:1240px) {
   .grid-container {
      grid-template-columns: 1fr 1fr;
      grid-template-areas:
@@ -46,10 +47,23 @@
           "footer footer";
   }
 
+.graphContainer{
+  background-color:green;
+}
+
+nav ul{
+  /*margin-left:600px;*/
+  margin-right:200px;
+}
+
+#logo{
+  margin-left:240px;
+}
+
 }
 
 /*laptoppie*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1840px) {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -60,6 +74,17 @@
           "footer footer footer";
  }
 
-  
+nav ul{
+  margin-left:800px;
+}
+
+#logo{
+  margin-left:440px;
+}
+ 
+.graphContainer{
+
+}
+
   
 }

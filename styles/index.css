@@ -9,9 +9,12 @@ html {
 }
 
 body{
-  background-color: black;
+  background: url(../img/mars.jpg) no-repeat   fixed;
+  /*background-color: black;*/
+  color:white;
   font-family: 'Asap Condensed', verdana, sans-serif;
 }
+/*-----------------------------------------------------------*/
 
 /*NAVIGATION*/
 
@@ -25,11 +28,11 @@ nav{
 }
 
 nav ul {
-  float:left;
+  float:right;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left:400px;
+  margin-right:60px;
 }
 
 nav ul li{
@@ -54,58 +57,57 @@ a:hover{
 
 .grid-container > div:nth-child(3) {
   width:100%;
-  background-color:black;
+  /*background-color:black;*/
+
 }
 
 .graphContainer{
-  width:500px;
-  height:425px;
+  width:600px;
+  height:500px;
+  display:grid;
+  /*align-content: space-between;*/
+  /*justify-content: space-around;*/
   background-color:red;
-
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
 
-.backgroundBox{
-  margin-left:-20px;
-  width:105%;
-  height:30%;
-  background-color:#F5DFC0;
-  margin-top:200px;
-  }
 
 #mainContent{
   max-width: 80%;
   min-height:300px;
   margin-left: auto;
   margin-right: auto;
-  background-color:#F5DFC0;
+  background-color:;
   margin-top:40px;
   border-radius: 36px;
   font-size:18px;
   padding: 20px;
   display:flex;
   flex-wrap: wrap;
+  color:white;
   }
+/*-----------------------------------------------------------*/
 
-#mainContent h2{
-  margin-left:18%;
-  font-size: 22px;
-}
-
-#mainContent p{
-  max-width: 100%;
-  margin:20px;
-  padding:20px;
-  text-align: center;
-}
-
+/*IMAGES*/
 #logo{
   max-width:300px;
   margin-bottom:-50px;
   margin-left:40px;
+}
+
+#mars{
 
 }
 
+#rover{
+
+}
+
+/*-----------------------------------------------------------*/
 
 
 
