@@ -57,21 +57,21 @@ a:hover{
 
 .grid-container > div:nth-child(3) {
   width:100%;
-  /*background-color:black;*/
-
 }
 
 .graphContainer{
   width:600px;
-  height:500px;
+  padding:10px;
   display:grid;
-  /*align-content: space-between;*/
-  /*justify-content: space-around;*/
-  background-color:red;
+  background-color:#414141;
   margin-left:auto;
   margin-right:auto;
   margin-top:10px;
   margin-bottom: 10px;
+}
+
+.grid-item h2{
+margin-left: 200px;
 }
 
 
@@ -104,6 +104,7 @@ a:hover{
 }
 
 #rover{
+max-width: 500px;
 
 }
 
