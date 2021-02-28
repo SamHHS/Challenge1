@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  background-color: black;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+}
+
+/*NAVIGATION*/
+
+nav{
+  font-size:16px;
+  min-height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background-color:black;
+  color:white;
+}
+
+nav ul {
+  float:left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left:400px;
+}
+
+nav ul li{
+  display:inline;
+  }
+
+a {
+  color:white;
+  text-decoration: none;
+  padding: 10px;
+  }
+
+a.active{
+  color:white;
+  text-decoration: underline;
+}
+
+a:hover{
+  color:#434343;
+}
+/*-----------------------------------------------------------*/
+
+.grid-container > div:nth-child(3) {
+  width:100%;
+  background-color:black;
+}
+
+.graphContainer{
+  width:500px;
+  height:425px;
+  background-color:red;
+
+}
+
+
+.backgroundBox{
+  margin-left:-20px;
+  width:105%;
+  height:30%;
+  background-color:#F5DFC0;
+  margin-top:200px;
+  }
+
+#mainContent{
+  max-width: 80%;
+  min-height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#F5DFC0;
+  margin-top:40px;
+  border-radius: 36px;
+  font-size:18px;
+  padding: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  }
+
+#mainContent h2{
+  margin-left:18%;
+  font-size: 22px;
+}
+
+#mainContent p{
+  max-width: 100%;
+  margin:20px;
+  padding:20px;
+  text-align: center;
+}
+
+#logo{
+  max-width:300px;
+  margin-bottom:-50px;
+  margin-left:40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
