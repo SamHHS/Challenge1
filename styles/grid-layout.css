@@ -33,7 +33,6 @@
 }
 
 
-
 /* tablet */
 @media only screen and (min-width:1240px) {
   .grid-container {
@@ -47,12 +46,9 @@
           "footer footer";
   }
 
-/*.graphContainer{
-  background-color:green;
-}*/
+
 
 nav ul{
-  /*margin-left:600px;*/
   margin-right:200px;
 }
 

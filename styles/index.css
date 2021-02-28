@@ -53,6 +53,13 @@ a.active{
 a:hover{
   color:#434343;
 }
+
+#logo{
+  max-width:300px;
+  margin-bottom:-50px;
+  margin-left:40px;
+}
+
 /*-----------------------------------------------------------*/
 
 .grid-container > div:nth-child(3) {
@@ -63,18 +70,30 @@ a:hover{
   width:600px;
   padding:10px;
   display:grid;
-  background-color:#414141;
+  background-color:black;
   margin-left:auto;
   margin-right:auto;
   margin-top:10px;
   margin-bottom: 10px;
 }
 
-.grid-item h2{
-margin-left: 200px;
+#status{
+  color:green;
+  font-size: 60px;
+  margin-left: 20px;
+    padding-top: -10px;
 }
 
 
+h1{
+  margin-top:2px;
+
+  font-size:50px;
+}
+
+.grid-item h2{
+margin-left: 20px;
+}
 
 #mainContent{
   max-width: 80%;
@@ -93,20 +112,8 @@ margin-left: 200px;
 /*-----------------------------------------------------------*/
 
 /*IMAGES*/
-#logo{
-  max-width:300px;
-  margin-bottom:-50px;
-  margin-left:40px;
-}
 
-#mars{
 
-}
-
-#rover{
-max-width: 500px;
-
-}
 
 /*-----------------------------------------------------------*/
 

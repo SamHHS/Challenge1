@@ -22,37 +22,38 @@
 	    	</nav>
 		</div>
 
-	  <div class="grid-container">
-	    <div class="grid-item box1">
-
-	    		
-		</div>
-	   		<div class="grid-item box2">
-	    		<div id="mainContent">
-	    			<!-- <img src="img/rover.jpg" alt="rover" id="rover"> -->
-
-	    		</div>
+		<div class="grid-container">
+			<div class="grid-item box1">
 			</div>
-	    <div class="grid-item box4">
-	    	<h2>Water waterUsage</h2>
-			<div class="graphContainer">
-				<canvas id="waterUsage" max-width="250" max-height="250"></canvas>	
-    		</div>
-	    		
-		</div>
-	    <div class="grid-item box5">
-	    	<h2>Fruit usage</h2>
-	    	<div class="graphContainer">
-	    		<canvas id="fruitUsage" max-width="250" max-height="250"></canvas>
-	    	</div>
-		</div>
-		<div class="grid-item box6">
-	    	<h2>Fruit supply</h2>
-			<div class="graphContainer" id="test">
-				<canvas id="fruitSupply" max-width="250" max-height="250"></canvas>
+			<div class="grid-item box2">
+			<div id="mainContent">
+				<h1>Current supply status:</h1> </br>
+				<h1 id="status">GOOD</h1>
 			</div>
 		</div>
-	  </div>
+	<div class="grid-item box4">
+		
+		<div class="graphContainer">
+			<h2>Expected Water Usage</h2>
+			<canvas id="waterUsage" max-width="250" max-height="250"></canvas>	
+		</div>
+			
+	</div>
+	<div class="grid-item box5">
+		
+		<div class="graphContainer">
+			<h2>Expected Fruit consumption</h2>
+			<canvas id="fruitUsage" max-width="250" max-height="250"></canvas>
+		</div>
+	</div>
+	<div class="grid-item box6">
+		
+		<div class="graphContainer" id="test">
+			<h2>Fruit supply</h2>
+			<canvas id="fruitSupply" max-width="250" max-height="250"></canvas>
+		</div>
+	</div>
+	</div>
   	<script type="text/javascript" src="index.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
 	<script>
