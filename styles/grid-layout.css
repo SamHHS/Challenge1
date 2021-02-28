@@ -32,7 +32,6 @@
   grid-area: boxDrie;
 }
 
-
 /* tablet */
 @media only screen and (min-width:1240px) {
   .grid-container {
@@ -46,16 +45,18 @@
           "footer footer";
   }
 
+  nav ul{
+    margin-right:200px;
+  }
 
+  #logo{
+    margin-left:240px;
+  }
 
-nav ul{
-  margin-right:200px;
-}
-
-#logo{
-  margin-left:240px;
-}
-
+   #mainContent{
+    float:right;
+    margin-right:150px;
+  }
 }
 
 /*laptoppie*/
@@ -68,19 +69,18 @@ nav ul{
           "main main main"
           "boxEen boxTwee boxDrie"
           "footer footer footer";
- }
+  }
 
-nav ul{
-  margin-left:800px;
-}
+  nav ul{
+    margin-left:800px;
+  }
 
-#logo{
-  margin-left:440px;
-}
- 
-.graphContainer{
+  #logo{
+    margin-left:440px;
+  }   
 
-}
-
-  
+  #mainContent{
+    float:right;
+    margin-right:200px;
+  }
 }

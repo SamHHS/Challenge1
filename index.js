@@ -10,22 +10,18 @@ function loadChart(){
         labels: ['1st Quarter', '2nd Quarter', '3rd Quarter', '4th Quarter'],
         datasets: [{
             label: 'Water used',
-            data: [12, 19, 3, 5],
+            data: [1200, 1900, 800, 950],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+               'rgba(255, 99, 132, 0.2)',
+               'rgba(255, 99, 132, 0.2)',
+               'rgba(255, 99, 132, 0.2)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 99, 132, 1)'
             ],
             borderWidth: 1
         }]
@@ -57,6 +53,7 @@ function loadChart(){
                 'rgba(153, 102, 255, 0.2)',
                 'rgba(255, 159, 64, 0.2)'
             ],
+            borderColor: 'rgba(255, 99, 132, 1)',
            
             borderWidth: 1
         }]
@@ -66,6 +63,12 @@ function loadChart(){
             yAxes: [{
                 ticks: {
                     beginAtZero: true
+                }
+            }],
+            xAxes: [{
+                ticks: {
+                    beginAtZero: true,
+                    display:false
                 }
             }]
         }
@@ -88,15 +91,17 @@ function loadChart(){
                 '#fdbcb4',
                 'fd5956'
             ],
+             borderColor: 'rgba(0, 0, 0, 1)',
             segmentShowStroke : false,
-            borderWidth: 1, 
+            borderWidth: 2, 
         }]
     },
     options: {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    display:false
                 }
             }]
         }

@@ -12,6 +12,7 @@ body{
   background: url(../img/mars.jpg) no-repeat   fixed;
   /*background-color: black;*/
   color:white;
+ /*font:  D-DIN-Bold,Arial,Verdana,sans-serif;*/
   font-family: 'Asap Condensed', verdana, sans-serif;
 }
 /*-----------------------------------------------------------*/
@@ -81,13 +82,12 @@ a:hover{
   color:green;
   font-size: 60px;
   margin-left: 20px;
-    padding-top: -10px;
+  padding-top: -10px;
 }
 
 
 h1{
   margin-top:2px;
-
   font-size:50px;
 }
 
@@ -96,29 +96,54 @@ margin-left: 20px;
 }
 
 #mainContent{
-  max-width: 80%;
+  width:500px;
   min-height:300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
   background-color:;
-  margin-top:40px;
-  border-radius: 36px;
   font-size:18px;
   padding: 20px;
-  display:flex;
-  flex-wrap: wrap;
   color:white;
   }
-/*-----------------------------------------------------------*/
 
-/*IMAGES*/
+#mainContent h1{
+margin-top:-30px;
+font-weight: lighter;
+}
 
+#mainContent h3{
+margin-top:-20px;
+}
 
+#mainContent p{
+margin-top:-20px;
+padding:10px;
+}
 
-/*-----------------------------------------------------------*/
+.btn{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: black;
+  padding: 20px;
+  border: 2px solid #fff;
+  display: inline-block;
+  transition: all 0.2s ease 0s;
+}
 
+.btn:hover {
+  color: black;
+  background: #fff;
+  border-color: #fff;
+  transition: all 0.2s ease 0s;
+}
 
+.spacex{
+  font-size: 40px;
+  color:green;
 
+}
 
 
 
